@@ -1,0 +1,11 @@
+.link-toutiao {
+  background-color: #6366f1; /* Hex color code */
+}
+
+.link-weibo {
+  background-color: #6366f1; /* Hex color code */
+}
+
+.link-douyin {
+  background-color: #FFFFFF; /* Hex color code */
+}
