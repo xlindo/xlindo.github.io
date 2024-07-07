@@ -1,4 +1,4 @@
-module github.com/xlindo/xlindo.github.com
+module github.com/xlindo/xlindo.github.io
 
 go 1.22.2
 
