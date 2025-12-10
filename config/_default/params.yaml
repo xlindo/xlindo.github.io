@@ -1,0 +1,104 @@
+############################
+## Author
+############################
+
+author:
+  name: "xlindo"
+  image: avatar.jpg
+  greeting: "AI 工程师🤖，副业看足球⚽ 欢迎关注！"
+  icon: ":heart:"
+
+############################
+## Links
+############################
+
+links:
+  # - github: https://github.com/chrede88/L1nkr
+  - weixin: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMDIwMTE4Mw==&scene=124#wechat_redirect
+  - ballendar: https://xlindo.com/ballendar-page
+  - MarkTutu: https://xlindo.com/marktutu
+  - douyin: https://www.douyin.com/user/MS4wLjABAAAAw2jof42tZMLr3oQcfv16aQLJh5V6fGMudovSB0hOYyU
+  - toutiao: https://www.toutiao.com/c/user/token/MS4wLjABAAAAPXde7-H-3HXlBCNNCEbDYampjZiDXXMqFtrZ8z6d_N0/?log_from=073f30e3cfce3_1714319012008
+  - blog: https://xlindo.com/kewenlu
+  - weibo: https://weibo.com/xlindo
+  # - x-twitter: 
+  # - mastodon: 
+  # - linkedin: 
+  # - instagram: 
+  # - reddit: 
+  # - telegram: 
+  # - whatsapp: 
+  # - signal: 
+  # - codepen: 
+  # - dev: 
+  - contact: mailto:hi@xlindo.com
+  # - discord: 
+  # - orcid: 
+  # - slack: 
+  # - stack-overflow: 
+  # - twitch: 
+  # - patreon: 
+  # - soundcloud: 
+  # - dribbble: 
+  # - stack-exchange: 
+  # - tiktok: 
+  # - youtube: 
+  # - keybase: 
+  # - flickr: 
+  # - tumblr: 
+  # - kickstarter: 
+  # - snapchat:
+  # - bluesky: 
+  # - bitbucket: 
+  # - bandcamp: 
+  # - etsy: 
+  # - spotify: 
+  # - pinterest: 
+  # - strava: 
+  # - untappd: 
+  # - skype: 
+  # - medium: 
+  # - foursquare: 
+  # - apple: 
+  # - amazon:
+  # - google:
+  # - paypal:
+  # - windows:
+  
+##############################
+## Monochromatic color scheme
+##############################
+
+# all links will be slate-700 (or slate-50 in dark mode)
+# https://tailwindcss.com/docs/customizing-colors
+monochrome: true
+
+############################
+## Colunms of Links
+############################
+
+# between 2 & 6 columns are supported (both incl)
+columns: 3
+
+###########################
+## Icon text
+###########################
+
+# add the icon name to each icon
+icontext: true
+
+############################
+## Tooltips
+############################
+
+# add tooltips on all icons
+tooltip: false
+
+###############################
+## OpenGraph & Twitter Cards
+###############################
+
+# title: "L1nkr"
+# description: "Demo site build with L1nkr & Hugo"
+# images:
+#   - thumbnail.jpeg
