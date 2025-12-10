@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>xlindo</title>
+    <meta name="description" content="AI 工程师，副业看足球 - xlindo 个人主页">
+    <meta property="og:title" content="xlindo">
+    <meta property="og:description" content="AI 工程师，副业看足球">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xlindo.com">
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            color-scheme: dark light;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 1.5rem;
+        }
+
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #fafafa;
+                color: #334155;
+            }
+
+            .link-item {
+                background-color: #fff;
+                color: #334155;
+            }
+
+            .link-item:hover {
+                background-color: #f1f5f9;
+            }
+
+            .link-item .icon {
+                filter: none;
+            }
+
+            footer {
+                color: #64748b;
+            }
+
+            footer a {
+                color: #64748b;
+            }
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .greeting {
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .links {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        @media (max-width: 480px) {
+            .links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .link-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1.25rem 0.75rem;
+            background-color: #1e293b;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #f8fafc;
+            transition: all 0.2s ease;
+        }
+
+        .link-item:hover {
+            transform: translateY(-2px);
+            background-color: #334155;
+        }
+
+        .link-item .icon {
+            width: 36px;
+            height: 36px;
+            margin-bottom: 0.5rem;
+            object-fit: contain;
+            border-radius: 8px;
+            filter: brightness(0) invert(1);
+        }
+
+        .link-item .icon-app {
+            filter: none;
+            border-radius: 8px;
+        }
+
+        .link-item span {
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: auto;
+            padding-top: 3rem;
+            font-size: 0.8rem;
+            color: #94a3b8;
+            text-align: center;
+        }
+
+        footer a {
+            color: #94a3b8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="assets/avatar.jpg" alt="xlindo" class="avatar">
+        <h1>xlindo ❤️</h1>
+        <p class="greeting">AI 工程师🤖，副业看足球⚽ 欢迎关注！</p>
+
+        <div class="links">
+            <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMDIwMTE4Mw==&scene=124#wechat_redirect"
+                class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/weixin.svg" alt="Weixin" class="icon">
+                <span>Weixin</span>
+            </a>
+
+            <a href="https://xlindo.com/ballendar-page" class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/ballendar.svg" alt="看球日历" class="icon">
+                <span>Ballendar</span>
+            </a>
+
+            <a href="https://xlindo.com/marktutu" class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/MarkTutu.svg" alt="马克图图" class="icon">
+                <span>MarkTutu</span>
+            </a>
+
+            <a href="https://www.douyin.com/user/MS4wLjABAAAAw2jof42tZMLr3oQcfv16aQLJh5V6fGMudovSB0hOYyU"
+                class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/douyin.svg" alt="Douyin" class="icon">
+                <span>Douyin</span>
+            </a>
+
+            <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAAPXde7-H-3HXlBCNNCEbDYampjZiDXXMqFtrZ8z6d_N0/?log_from=073f30e3cfce3_1714319012008"
+                class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/toutiao.svg" alt="Toutiao" class="icon">
+                <span>Toutiao</span>
+            </a>
+
+            <a href="https://xlindo.com/kewenlu" class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/blog.svg" alt="Blog" class="icon">
+                <span>Blog</span>
+            </a>
+
+            <a href="https://weibo.com/xlindo" class="link-item" target="_blank" rel="noopener">
+                <img src="assets/icons/weibo.svg" alt="Weibo" class="icon">
+                <span>Weibo</span>
+            </a>
+
+            <a href="mailto:hi@xlindo.com" class="link-item">
+                <img src="assets/icons/contact.svg" alt="Contact" class="icon">
+                <span>Contact</span>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 xlindo</p>
+    </footer>
+</body>
+
+</html>
